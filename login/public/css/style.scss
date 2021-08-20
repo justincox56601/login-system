@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@import 'hero';
+@import 'invoice';
+
+nav{
+	display: block;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 1rem;
+	background-color: #00000066;
+	z-index: 99999;
+
+	ul{
+		list-style-type: none;
+		display: grid;
+		justify-content: end;
+		padding-right: 4rem;
+		grid-auto-flow: column;
+		gap: 1rem;
+		
+		li{
+			
+			
+			a{
+				color: white;
+				text-decoration: none;
+				font-size: 1.5rem;
+				text-transform: uppercase;
+
+				
+			}
+
+			&:hover{
+				border-bottom: 2px solid white;
+			}
+		}
+
+		
+	}
+	
+}
