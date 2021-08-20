@@ -16,7 +16,7 @@
  define('URLROOT', 'http://localhost/portfolio');
 
  //Site Name
- define("SITENAME", 'Justin Cox | Portfolio');
+ define("SITENAME", 'Justin Cox | Login System');
 
  //Home Page slug
  define('SITE_HOME', 'hello-world');
